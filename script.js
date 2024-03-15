@@ -192,7 +192,7 @@ let questions = [
     updateScore();
   }
   
-  // Initialize the quiz after shuffling questions
+ 
   function initializeQuiz() {
     currentQuestionIndex = 0;
     score = 0;
