@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1 id="quiz-logo">QUIZ TIME!</h1>
+    <div class="container">
+        <p class="question" id="question"></p>
+        <input type="number" placeholder="Enter your answer" id="answer" />
+        <br>
+        <button onclick="onSubmit()">Submit</button>
+        <button onclick="onNext()" id="next">Next</button>
+        <p id="result"></p>
+        <p id="score">Score: 0</p> <!-- New score element -->
+      </div>      
+  <script src="script.js"></script>
+</body>
+</html>
